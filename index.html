@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about the private PromptSuk Money Book Backup desktop utility and its limited Google Drive access.">
+  <title>PromptSuk Money Book Backup</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header><nav aria-label="Main"><a href="./" aria-current="page">About</a><a href="privacy.html">Privacy policy</a></nav></header>
+  <main>
+    <p class="label">Private desktop utility</p>
+    <h1>PromptSuk Money Book Backup</h1>
+    <p class="lead">Encrypted backups for the owner's locally operated PromptSuk Money Book.</p>
+    <section>
+      <h2>Purpose</h2>
+      <p>This utility is being configured for the PromptSuk owner's own use. It is intended to create encrypted recovery archives on the owner's Windows computer, upload them to the owner's selected private Google Drive folder, and download the uploaded copies to check their size and cryptographic checksum.</p>
+      <p>This public website contains documentation only. It does not run the Money Book application, accept payments, provide a public accounting service, or display accounting records or backup files. Setup and operational verification are still in progress.</p>
+    </section>
+    <section>
+      <h2>Why Google Drive access is requested</h2>
+      <p>The desktop utility requests only the <code>drive.file</code> permission: access to specific files or folders selected for use with the utility and files it creates. It does not request access to every file in the owner's Google Drive.</p>
+      <p>Access is used to check the selected backup folder's ownership and sharing metadata, create backup folders, upload encrypted archives and integrity manifests, and retrieve those files for verification. Google authorization happens through Google's consent screen, not through this website.</p>
+    </section>
+    <section>
+      <h2>Owner control</h2>
+      <p>The backup program runs on the owner's computer, not on this website and not through an AI service. The owner can stop local scheduled backups and revoke the utility's Google authorization. The computer must be running with the required account and network access; a schedule alone does not guarantee successful recovery or a fixed recovery time.</p>
+      <p>Read the <a href="privacy.html">privacy policy</a> for data access, storage, retention, and revocation details.</p>
+    </section>
+    <section><h2>Contact</h2><p>Maintainer: PromptSuk owner. Questions about this utility or its data use: <a href="mailto:naris.pk@gmail.com">naris.pk@gmail.com</a>.</p></section>
+  </main>
+  <footer>PromptSuk Money Book Backup &middot; Documentation updated 19 October 2026</footer>
+</body>
+</html>
